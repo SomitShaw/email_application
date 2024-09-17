@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // or ES2017, ES2018, etc.
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
